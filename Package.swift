@@ -45,7 +45,7 @@ var settings: [SwiftSetting] = [
 ]
 
 let package = Package(
-  name: "swift-collections",
+  name: "swifty-collections",
   products: [
     .library(name: "Collections", targets: ["Collections"]),
     .library(name: "BitCollections", targets: ["BitCollections"]),
